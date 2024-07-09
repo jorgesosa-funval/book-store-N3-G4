@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4rem 2rem;
+    background-color: blueviolet;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+nav > button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+header .search_input{
+    border: none;
+    outline: none;
+    padding-inline: .2rem;
+    height: 28px;
+    width: 25%;
+    min-width: 240px;
+    border-radius: .2rem;
+}
+
+
+svg{
+    width: 28px;
+    height: 28px;
+    &:hover{
+        color: azure;
+    }
+    &:active{
+        color: rgb(0, 0, 140);
+    }
+}
